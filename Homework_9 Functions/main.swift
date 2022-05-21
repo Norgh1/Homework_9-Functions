@@ -123,8 +123,6 @@ print("\(calculateThisNumber)! = \(resultOfFactorial)")
 
 //Home Work 9_8
 
-// կիսատա 
-
 func calculateRightangle(a:Double,b:Double) ->Double {
     let returnResult = (a * a + b * b)
     
@@ -137,3 +135,15 @@ print(answer)
 
 
 
+// example 2
+
+
+
+func calculateRightangle2(valueOne: Double, ValueTwo: Double) -> Double {
+    let result = sqrt(valueOne * valueOne + ValueTwo * ValueTwo)
+    
+    return result
+}
+
+let myResult = calculateRightangle2(valueOne: 3, ValueTwo: 4)
+print("answer is \(myResult)")
